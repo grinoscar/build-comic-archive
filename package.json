@@ -1,16 +1,21 @@
 {
-    "name": "build-comic-archive",
-    "version": "0.0.0",
-    "description:": "Load a set of images into a .cb{z|r|t} comic book reader file from a web page and pattern",
-    "bugs": "https://github.com/grinoscar/build-comic-archive/issues",
-    "private": true,
-    "license": "UNLICENSED",
-    "author": {
-        "name": "Glenn Howald",
-        "email": "glen.howald@gmail.com",
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/grinoscar/build-comic-archive.git"
-    }
+  "name": "build-comic-archive",
+  "version": "0.0.0",
+  "description:": "Load a set of images into a .cb{z|r|t} comic book reader file from a web page and pattern",
+  "bugs": "https://github.com/grinoscar/build-comic-archive/issues",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Glenn Howald",
+    "email": "glenn.howald@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grinoscar/build-comic-archive.git"
+  },
+  "dependencies": {
+    "archiver": "^2.1.0",
+    "axios": "^0.17.1",
+    "express": "^4.16.2"
+  }
 }
